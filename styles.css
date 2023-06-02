@@ -43,13 +43,33 @@ ul li a {
     font-size: 32px;
     font-weight: 800;
     color: #FFE7BD;
-    background-color: #0C5679;
+    background-color: #0B0835;
     padding: 0 16px;
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    padding: 16px;
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
 }
 
 /* ... */
 
 /* || Images */
+
+.hero img {
+    width: 150;
+    height: 200;
+}
 
 /* ... */
 

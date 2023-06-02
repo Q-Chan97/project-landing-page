@@ -1,16 +1,44 @@
 /* ||| STYLING ||| */
 
 
-
 /* || GENERAL STYLES */
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
 
 /* ... */
 
 /* || LISTS */
 
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 0 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
 /* ... */
 
-/* || UTILITIES */
+/* || HEADER, BODY, FOOTER */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
 
 /* ... */
 

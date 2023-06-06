@@ -88,6 +88,24 @@ ul li a {
     width: 50%;
 }
 
+.modal-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #F28A0F;
+    padding: 32px;
+    gap: 16px;
+    width: 66%;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -118,11 +136,27 @@ ul li a {
     padding: 8px 16px;
     background-color: #F28A0F;
     border-radius: 10px;
+    border: 1px solid;
     border-color: #d97d0d;
-    border-style: initial;
 }
 
 .hero button:hover {
+    background-color: #d97d0d;
+}
+
+.modal button {
+    display:flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #F28A0F;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.modal button:hover {
     background-color: #d97d0d;
 }
 /* ... */
@@ -165,6 +199,17 @@ ul li a {
     font-size: 32px;
     font-weight: 800;
     float: right;
+}
+
+.actionBolder {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.actionLighter {
+    font-size: 24px;
+    color: white;
 }
 
 /* ||||||||||||||| */

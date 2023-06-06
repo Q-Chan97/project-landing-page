@@ -63,6 +63,7 @@ ul li a {
 
 .information {
     background-color: #0B0835;
+    padding-bottom: 64px;
 }
 
 .infoImgList {
@@ -81,7 +82,7 @@ ul li a {
     align-items: center;
     justify-content: center;
     background-color: #e5e7eb;
-    padding: 20px;
+    padding: 64px;
 }
 
 .quoteSection div {
@@ -185,8 +186,10 @@ ul li a {
 
 .infoSubText {
     color: white;
+    font-weight: bold;
     font-size: 18px;
     text-align: center;
+    margin-top: 16px;
 }
 
 .quoteSectionText {
